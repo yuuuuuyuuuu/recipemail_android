@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">gcmtest</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <color name="color_common_background">#FAEBD7</color>
+    <color name="color_common_text_header">#FF8C00</color>
+    <color name="color_common_text_body">#696969</color>
+    <string name="string_welcome_header">Welcome</string>
+    <string name="string_initial_explanation">そんな皆さんのお悩みを少しでも和らげるため、毎日午後3時に今日のオススメレシピをお届けします！</string>
+    <string name="string_welcome_header_sub">レシピメールへようこそ！</string>
+    <string name="string_label_start_service">使い始める</string>
+    <string name="string_label_beta_notice">現在ベータ版です</string>
+    <string name="string_initial_explanation_1st_line">毎日のおかず選びは大変ですよね。。。</string>
+    <string name="string_label_setting_header">設定</string>
+    <string name="string_label_setting_update">設定を更新する</string>
+    <color name="color_common_text_light">#F5F5F5</color>
+    <string name="string_label_register_completed">利用準備できました！</string>
+
+</resources>

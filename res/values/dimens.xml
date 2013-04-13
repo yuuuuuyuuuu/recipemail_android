@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dimens_registration_explanation_margin">25dp</dimen>
+    <dimen name="dimens_welcome_header_textsize">40sp</dimen>
+    <dimen name="dimens_registration_completed_notice_textsize">30sp</dimen>
+    <dimen name="activity_vertical_margin">5sp</dimen>
+</resources>
