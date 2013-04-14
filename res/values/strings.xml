@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
 
     <string name="app_name">gcmtest</string>
     <string name="hello_world">Hello world!</string>
     <string name="menu_settings">Settings</string>
     <color name="color_common_background">#FAEBD7</color>
     <color name="color_common_text_header">#FF8C00</color>
-    <color name="color_common_text_body">#696969</color>
-    <string name="string_welcome_header">Welcome</string>
+    <color name="color_common_text_body_light">#777777</color><color name="color_common_text_body">#222222</color>
+    <color name="color_common_background_colored_transparent">#A0FAEBD7</color><color name="color_common_background_light">#FFD28E</color><string name="string_welcome_header">Welcome</string>
     <string name="string_initial_explanation">そんな皆さんのお悩みを少しでも和らげるため、毎日午後3時に今日のオススメレシピをお届けします！</string>
     <string name="string_welcome_header_sub">レシピメールへようこそ！</string>
     <string name="string_label_start_service">使い始める</string>
@@ -17,5 +17,20 @@
     <string name="string_label_setting_update">設定を更新する</string>
     <color name="color_common_text_light">#F5F5F5</color>
     <string name="string_label_register_completed">利用準備できました！</string>
-
+    
+    <style name="welcome_screen_table_style">
+        <item name="android:textColor">#FF0000</item>
+        <item name="android:textSize">26sp</item>
+    </style>
+    <string name="table_layout_column_specify">0,1,2,3</string>
+    
+    
+    
+    <string name="string_howtouse_label">使い方</string>
+    <string name="string_whatisserviceabout_label">レシピメールとは？</string>
+    <color name="color_common_background_transparent">#A0FFFFFF</color>
+    <string name="string_recipemail_content_explanation">毎日の献立を考える必要はもうありません！レシピメールは毎日午後３時に今日のおすすめレシピを無料で配信します。</string>
+    <string name="string_recipemail_howtostart_explanation">使い方は簡単!\n下の「使い始める」ボタンを押すだけで、始められます。</string>
+    <string name="string_label_startusing_button">始める</string>
+    
 </resources>

@@ -4,4 +4,16 @@
     <dimen name="dimens_welcome_header_textsize">40sp</dimen>
     <dimen name="dimens_registration_completed_notice_textsize">30sp</dimen>
     <dimen name="activity_vertical_margin">5sp</dimen>
+    <dimen name="dimens_text_margin_normal">20dp</dimen>
+    <dimen name="dimens_text_margin_large">30dp</dimen>
+    <dimen name="dimens_text_margin_small">10dp</dimen>
+    <dimen name="dimens_text_size_small">12sp</dimen>
+    <dimen name="dimens_text_size_normal">20sp</dimen>
+    <dimen name="dimens_text_size_large">30sp</dimen>
+    <dimen name="dimens_widget_margin_top">30dp</dimen>
+    <dimen name="dimens_text_maxwidth_normal">200dp</dimen>
+    <dimen name="dimens_text_maxwidth_small">160dp</dimen>
+    <dimen name="dimens_text_maxwidth_large">350dp</dimen>
+    <dimen name="dimens_text_maxwidth_extra_small">100dp</dimen>
+    <dimen name="dimens_widget_margin_large">70dp</dimen>
 </resources>

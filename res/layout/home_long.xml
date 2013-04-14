@@ -10,30 +10,129 @@
         android:layout_height="wrap_content" >
 
         <LinearLayout
-            android:layout_width="wrap_content"
+            android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical" >
 
-            <ImageView
-                android:id="@+id/imageView3"
-                android:layout_width="wrap_content"
+            <LinearLayout
+                android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:src="@drawable/dish_icon_test" />
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1.0"
+                android:background="@color/color_common_background_light"
+                android:orientation="vertical" >
 
-            <ImageView
-                android:id="@+id/imageView1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:contentDescription="test"
-                android:src="@drawable/long_height_img" />
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="@string/string_welcome_header"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/color_common_text_header"
+                    android:textColorHint="@color/color_common_text_header"
+                    android:textColorLink="@color/color_common_text_header"
+                    android:textSize="@dimen/dimens_text_size_large" />
 
-            <ImageView
-                android:id="@+id/imageView2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@drawable/dish_800_400" />
+            </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1.0"
+                    android:background="@drawable/dish_800_400"
+                    android:orientation="vertical"
+                    android:paddingTop="@dimen/dimens_widget_margin_top" >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/color_common_background_transparent"
+                        android:orientation="vertical"
+                        android:padding="@dimen/dimens_text_margin_small" >
+
+                        <TextView
+                            android:id="@+id/textView4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="@dimen/dimens_text_margin_small"
+                            android:text="@string/string_whatisserviceabout_label"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:textColor="@color/color_common_text_body_light"
+                            android:textSize="@dimen/dimens_text_size_normal" />
+
+                        <TextView
+                            android:id="@+id/textView5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:maxWidth="@dimen/dimens_text_maxwidth_normal"
+                            android:text="@string/string_recipemail_content_explanation"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="@color/color_common_text_body"
+                            android:textSize="@dimen/dimens_text_size_small" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:layout_marginBottom="@dimen/dimens_widget_margin_large"
+                        android:layout_marginTop="@dimen/dimens_widget_margin_large"
+                        android:background="@color/color_common_background_transparent"
+                        android:orientation="vertical"
+                        android:padding="@dimen/dimens_text_margin_normal" >
+
+                        <TextView
+                            android:id="@+id/textView1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:gravity="center_vertical"
+                            android:text="@string/string_howtouse_label"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="@color/color_common_text_body_light"
+                            android:textSize="@dimen/dimens_text_size_normal" />
+
+                        <TextView
+                            android:id="@+id/textView3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:maxWidth="@dimen/dimens_text_maxwidth_small"
+                            android:singleLine="false"
+                            android:text="@string/string_recipemail_howtostart_explanation"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="@color/color_common_text_body"
+                            android:textSize="@dimen/dimens_text_size_small" />
+
+                        <Button
+                            android:id="@+id/button2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_margin="@dimen/dimens_text_margin_small"
+                            android:background="@color/color_common_background_light"
+                            android:paddingLeft="@dimen/dimens_text_margin_large"
+                            android:paddingRight="@dimen/dimens_text_margin_large"
+                            android:text="@string/string_label_startusing_button" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/long_height_img"
+                    android:orientation="vertical" >
+
+                </LinearLayout>
 
         </LinearLayout>
+            
+
 
     </ScrollView>
 
