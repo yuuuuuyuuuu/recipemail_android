@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bitmap xmlns:android="http://schemas.android.com/apk/res/android"
+    android:src="@drawable/recipemail_bg_1_720w"
+    android:tileMode="disabled"
+    android:gravity="top"> 
+</bitmap>

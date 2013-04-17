@@ -41,7 +41,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
                     android:layout_weight="1.0"
-                    android:background="@drawable/dish_800_400"
+                    android:background="@drawable/background_image"
                     android:orientation="vertical"
                     android:paddingTop="@dimen/dimens_widget_margin_top" >
 
